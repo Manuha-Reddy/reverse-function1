@@ -1,0 +1,8 @@
+function reverse(a){
+  const array1 = a.split('');
+  const array2 = array1.reverse();
+  const array3 = array2.join('');
+  return array3;
+}
+const a = "12345";
+document.write(reverse(a));
